@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleIdentifier</key>
+    <string>io.github.andyjenkins1.taskferry</string>
+    <key>CFBundleName</key>
+    <string>TaskFerry</string>
+    <key>CFBundleDisplayName</key>
+    <string>TaskFerry</string>
+    <key>CFBundleExecutable</key>
+    <string>TaskFerry</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.0</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>14.0</string>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.productivity</string>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+    <key>NSRemindersFullAccessUsageDescription</key>
+    <string>Reads your reminders so they can be copied to Todoist. Reminders are only marked as completed if you ask, and nothing is ever deleted.</string>
+</dict>
+</plist>

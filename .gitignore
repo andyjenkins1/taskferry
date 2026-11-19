@@ -1,0 +1,18 @@
+# Build output
+.build/
+build/
+.swiftpm/
+*.xcodeproj
+xcuserdata/
+DerivedData/
+
+# macOS
+.DS_Store
+
+# Personal data: these belong in ~/Library/Application Support/TaskFerry, never in the repo
+mapping.json
+ledger.json
+dry-run*.txt
+
+# Local tooling
+.claude/

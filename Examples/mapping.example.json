@@ -1,0 +1,34 @@
+{
+  "inboxLists": ["Inbox"],
+  "groups": [
+    { "name": "Home", "lists": ["Household", "Garden"] },
+    { "name": "Work", "lists": ["Projects", "Admin"] }
+  ],
+  "sections": [
+    {
+      "list": "Projects",
+      "name": "This week",
+      "reminders": [
+        { "contains": "Draft the proposal" },
+        { "exact": "Call Sam" }
+      ]
+    }
+  ],
+  "subtasks": [
+    {
+      "list": "Household",
+      "parentTitle": "Plan the party",
+      "children": [
+        { "contains": "Book the hall" },
+        { "contains": "Send invitations" }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "list": "Garden",
+      "reminder": { "contains": "Order seeds" },
+      "url": "https://example.com/seed-catalogue"
+    }
+  ]
+}
